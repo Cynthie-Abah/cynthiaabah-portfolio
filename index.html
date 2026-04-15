@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cynthia’s Profile</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&family=Share+Tech+Mono&display=swap"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&family=Share+Tech+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/dc90519a09.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="">
+      <header>
+        <!-- DESKTOP VIEW -->
+        <div class="desk-nav-bar">
+          <h1 class="name"><a href="/index.html">Cynthia's Profile</a></h1>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact me</a></li>
+          </ul>
+        </div>
+        <!-- mobile nav -->
+        <div class="mobile-nav-bar">
+          <button id="hamburger" aria-label="Open navigation menu">
+            <i aria-hidden="true" class="fa-solid fa-bars"></i>
+          </button>
+          <nav id="mobile-nav-div">
+            <h1 class="name"><a href="/">Cynthia's Profile</a></h1>
+            <ul>
+              <li><a href="#about">About me</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact me</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <!-- Hero section -->
+        <article id="hero" class="profile-card">
+          <!--AVATAR -->
+          <figure class="avatar">
+            <img src="./images/avatar.jpeg" alt="Cynthia Abah" />
+          </figure>
+
+          <!-- INFO -->
+          <div class="info">
+            <h2 class="name" aria-label="Cynthia Abah Name">Cynthia Abah</h2>
+            <p class="bio">Aspiring Full-Stack Developer</p>
+            <a role="button" class="cta-button" href="#projects"
+              >View My Work</a
+            >
+          </div>
+        </article>
+
+        <!-- about me -->
+        <article id="about" class="about-card">
+          <section class="bio-section dark">
+            <h3>About Me</h3>
+            <p>
+              I am a 22-year-old final-year student of
+              <strong>Nursing Science</strong> with a strong passion for growth,
+              learning, and making a meaningful impact. My academic journey has
+              taught me discipline, empathy, and attention to detail, while also
+              exposing me to the importance of problem-solving in real-life
+              situations. Beyond my studies, I am curious about technology and
+              enjoy exploring creative ways to express ideas and build useful
+              things.
+            </p>
+            <p>
+              I have a growing interest in digital skills, particularly in
+              <strong>web development</strong>, because it combines creativity
+              with logic. I enjoy the process of turning ideas into something
+              functional and visually appealing. In my free time, I like
+              learning new tools, improving my skills, and finding ways to stay
+              productive and innovative.
+            </p>
+            <p>
+              I decided to learn <strong>web development</strong> because I want
+              to expand my opportunities beyond my primary field and build
+              something of my own in the digital space. It gives me the ability
+              to create, solve problems, and potentially earn independently.
+              More importantly, it aligns with my desire to continuously learn,
+              adapt, and stay relevant in a world that is increasingly driven by
+              technology.
+            </p>
+          </section>
+          <!-- avatar -->
+          <figure class="avatar">
+            <img src="./images/profile.JPG" alt="Cynthia Abah" />
+          </figure>
+        </article>
+
+        <!-- skills section -->
+        <article id="skills" class="skills-card">
+          <h3>My Skills</h3>
+
+          <ul class="skills-container">
+            <li class="skill-card">
+              <i class="fa-brands fa-html5"></i>
+              <p>HTML5</p>
+            </li>
+
+            <li class="skill-card">
+              <i class="fa-brands fa-css3-alt"></i>
+              <p>CSS3</p>
+            </li>
+
+            <li class="skill-card">
+              <i class="fa-brands fa-js"></i>
+              <p>JavaScript</p>
+            </li>
+
+            <li class="skill-card">
+              <i class="fa-brands fa-react"></i>
+              <p>React</p>
+            </li>
+
+            <li class="skill-card">
+              <i class="fa-brands fa-git-alt"></i>
+              <p>Git</p>
+            </li>
+
+            <li class="skill-card">
+              <i class="fa-brands fa-github"></i>
+              <p>GitHub</p>
+            </li>
+
+            <li class="skill-card">
+              <i class="fa-solid fa-code"></i>
+              <p>VS Code</p>
+            </li>
+
+            <li class="skill-card">
+              <i class="fa-brands fa-chrome"></i>
+              <p>Chrome DevTools</p>
+            </li>
+
+            <li class="skill-card">
+              <i class="fa-solid fa-border-top-left"></i>
+              <p>FlexBox / Grid</p>
+            </li>
+          </ul>
+        </article>
+
+        <!-- Projects showcase -->
+        <article id="projects" class="projects-card">
+          <h3>My Projects</h3>
+
+          <div class="projects-container">
+            <div class="project-card">
+              <div class="img-bg">
+                <img
+                  src="images/audiophile.webp"
+                  alt="Audiophile E-commerce Site"
+                />
+
+                <div class="img-overlay">
+                  <h3>Audiophile E-commerce Site</h3>
+                  <p>
+                    A Stage 3 HNG task where I built a modern e-commerce website
+                    for Audiophile, a digital sound system online store
+                  </p>
+                  <p><strong>Tech:</strong> React Js , Next JS, Convex</p>
+                  <a
+                    href="https://github.com/Cynthie-Abah/Audiophile-ecommerce-website.git"
+                    class="cta-button"
+                    target="_blank"
+                    >View Project</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="img-bg">
+                <img
+                  src="images/onboarding-tour.webp"
+                  alt="Onboarding Tour Platform"
+                />
+
+                <div class="img-overlay">
+                  <h3>Onboarding Tour Platform</h3>
+                  <p>
+                    The Onboarding Tour Platform provides businesses with an
+                    easy-to-use system for creating guided user The Onboarding
+                  </p>
+                  <p><strong>Tech:</strong> Next Js, Auth Js, TailwindCSS</p>
+                  <a
+                    href="https://github.com/Cynthie-Abah/onboarding-tour-platform.git"
+                    class="cta-button"
+                    target="_blank"
+                    >View Project</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="img-bg">
+                <img
+                  src="images/the-wild-oasis-website.webp"
+                  alt="Wild Oasis Website"
+                />
+
+                <div class="img-overlay">
+                  <h3>Wild Oasis Website</h3>
+                  <p>
+                    Official website for the wild oasis where guests can view
+                    and book for accomodations
+                  </p>
+                  <p><strong>Tech:</strong> Next Js, Auth Js, TailwindCSS</p>
+                  <a
+                    href="https://github.com/Cynthie-Abah/the-wild-oasis-website-project.git"
+                    class="cta-button"
+                    target="_blank"
+                    >View Project</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="img-bg">
+                <img
+                  src="images/wild-oasis-dashboard.webp"
+                  alt="Wild Oasis Dashboard"
+                />
+
+                <div class="img-overlay">
+                  <h3>Wild Oasis Dashboard</h3>
+                  <p>
+                    A Responsive dashboard built for managing cabin accomodation
+                    bookings.
+                  </p>
+                  <p><strong>Tech:</strong> React, Tailwind, Supabase</p>
+                  <a
+                    href="https://github.com/Cynthie-Abah/the-wild-oasis-dashboard.git"
+                    class="cta-button"
+                    target="_blank"
+                    >View Project</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- contact section -->
+        <section id="contact" class="contact-card">
+          <h3>
+            Get In Touch -
+            <a class="email" href="mailto:abahojomacynthia@gmail.com"
+              >abahojomacynthia@gmail.com</a
+            >
+          </h3>
+          <p>Brief message encouraging people to reach out</p>
+          <!-- contact form -->
+          <div class="contact-container">
+            <form method="POST" class="contact-form" novalidate>
+              <div class="input-div">
+                <label for="name"
+                  >Full Name
+                  <span style="color: rgb(207, 95, 95)">*</span></label
+                >
+                <input
+                  aria-describedby="name-error"
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                />
+                <span class="error-msg" role="alert" id="name-error"></span>
+              </div>
+
+              <div class="input-div">
+                <label for="email"
+                  >Email <span style="color: rgb(207, 95, 95)">*</span></label
+                >
+                <input
+                  aria-describedby="email-error"
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                />
+                <span class="error-msg" role="alert" id="email-error"></span>
+              </div>
+
+              <div class="input-div">
+                <label for="message"
+                  >Message <span style="color: rgb(207, 95, 95)">*</span></label
+                >
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                  maxlength="500"
+                  minlength="10"
+                  aria-describedby="message-error"
+                ></textarea>
+                <span class="error-msg" role="alert" id="message-error"></span>
+              </div>
+
+              <button class="submit-button" type="submit">Submit</button>
+            </form>
+            <!-- social media links -->
+            <article>
+              <h3>Follow Me on Social media</h3>
+              <p>Let's Engage</p>
+              <ul class="socials">
+                <li>
+                  <a
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    href="https://www.linkedin.com/in/cynthia-abah/"
+                  >
+                    <i class="fa-brands fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    rel="noopener noreferrer"
+                    href="https://www.github.com/@cynthia_ao?t=ZS-90bsTy2vkPt&_r=1"
+                    target="_blank"
+                    ><i class="fa-brands fa-github"></i>
+                    <span>Github</span>
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    rel="noopener noreferrer"
+                    href="https://www.twitter.com/cynthie_ao?igsh=MTNwYXlldTlyNWd3dw%3D%&utm_-source=qr"
+                    target="_blank"
+                    ><i class="fa-brands fa-square-twitter"></i>
+                    <span>Twitter</span>
+                  </a>
+                </li>
+              </ul>
+            </article>
+          </div>
+        </section>
+        <!-- footer -->
+        <footer>
+          <p>&copy; 2026 Cynthia Abah. All rights reserved.</p>
+        </footer>
+      </main>
+    </div>
+
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>
